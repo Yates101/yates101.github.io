@@ -1,0 +1,55 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/climb-hammock.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container {
+	background: #000000;
+	width: 424px;
+	color: white;
+	padding: 10px;
+	border-radius: 0px 0px 20px 0px;
+}
+
+h1 {
+	font-size: 90px;
+	font-family: 'Comfortaa', cursive;
+
+}
+
+h2 {
+	background: #F4A96B;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: #F4A96B;
+	text-decoration: none;
+}
+
+.social {
+	padding-top: 15px;
+}
+
+footer {
+	color: white;
+	font-size: 10px;
+}
